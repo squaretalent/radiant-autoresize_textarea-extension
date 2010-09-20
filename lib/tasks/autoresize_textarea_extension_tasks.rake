@@ -4,14 +4,7 @@ namespace :radiant do
       
       desc "Runs the migration of the Autoresize Textarea extension"
       task :migrate => :environment do
-        require 'radiant/extension_migrator'
-        if ENV["VERSION"]
-          AutoresizeTextareaExtension.migrator.migrate(ENV["VERSION"].to_i)
-          Rake::Task['db:schema:dump'].invoke
-        else
-          AutoresizeTextareaExtension.migrator.migrate
-          Rake::Task['db:schema:dump'].invoke
-        end
+        puts "radiant:autoresize_textarea:migrate - Nohing to do"
       end
       
       desc "Copies public assets of the Autoresize Textarea to the instance public/ directory."
