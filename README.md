@@ -1,6 +1,6 @@
 # radiant autoresize-textarea extension
 
-a simple radiant extension that provides magical textareas that automatically resizing to fit their contents within the admin interface.
+a simple radiant extension that provides magical textareas that automatically resize to fit their contents within the admin interface.
 
 ## install instructions
     
