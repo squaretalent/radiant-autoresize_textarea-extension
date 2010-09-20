@@ -2,11 +2,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "radiant-autoresize_textarea-extension"
-    gem.summary = %Q{Autoresize Textarea Extension for Radiant CMS}
-    gem.description = %Q{Describe your extension here}
+    gem.summary = %Q{Automatically resizes textarea controls to fit their contents in the radiant admin interface.}
+    gem.description = %Q{Automatically resizes textarea controls to fit their contents in the radiant admin interface.}
     gem.email = "mario@squaretalent.com"
-    gem.homepage = "http://yourwebsite.com/autoresize_textarea"
-    gem.authors = ["Mario Visic"]
+    gem.homepage = "http://github.com/squaretalent/radiant-autoresize_textarea-extension"
+    gem.authors = ["SquareTalent"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
